@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/9/20 14:42:28。
+     1>项目“E:\tsuyokisu_chs_dll\tsuyokisu_chs_dll\tsuyokisu_chs_dll.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\tsuyokis.BF24A523.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TSUYOKISU_CHS_DLL_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt tsuyokisu_chs_dll.cpp
+         tsuyokisu_chs_dll.cpp
+     1>e:\tsuyokisu_chs_dll\tsuyokisu_chs_dll\D3DFont.h(104): warning C4018: “<”: 有符号/无符号不匹配
+     1>tsuyokisu_chs_dll.cpp(65): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : 参见“stricmp”的声明
+     1>tsuyokisu_chs_dll.cpp(115): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(253) : 参见“stricmp”的声明
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\tsuyokisu_chs_dll\Release\tsuyokisu_chs.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\tsuyokisu_chs_dll\Release\tsuyokisu_chs.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\tsuyokisu_chs_dll\Release\tsuyokisu_chs.lib" /MACHINE:X86 /SAFESEH /DLL Release\DebugInfo.obj
+         Release\dllmain.obj
+         Release\stdafx.obj
+         Release\tsuyokisu_chs_dll.obj
+         正在生成代码
+         已完成代码的生成
+     1>detours.lib(detours.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(detours.obj)”或在“E:\tsuyokisu_chs_dll\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>detours.lib(modules.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(modules.obj)”或在“E:\tsuyokisu_chs_dll\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>detours.lib(disasm.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(disasm.obj)”或在“E:\tsuyokisu_chs_dll\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         tsuyokisu_chs_dll.vcxproj -> E:\tsuyokisu_chs_dll\Release\tsuyokisu_chs.dll
+       FinalizeBuildStatus:
+         正在删除文件“Release\tsuyokis.BF24A523.tlog\unsuccessfulbuild”。
+         正在对“Release\tsuyokis.BF24A523.tlog\tsuyokisu_chs_dll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\tsuyokisu_chs_dll\tsuyokisu_chs_dll\tsuyokisu_chs_dll.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:45.27
